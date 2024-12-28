@@ -1,6 +1,6 @@
 import {Route, Routes} from "react-router";
-import List from "./screens/list";
-import Form from "./screens/form";
+import List from "./screens/list/list";
+import Form from "./screens/form/form";
 import Layout from "./screens/layout";
 
 const Router = () =>

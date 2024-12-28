@@ -3,4 +3,5 @@ body {
     Arial, sans-serif;
   margin: auto;
   max-width: 38rem;
+  background-image: linear-gradient(90deg, #3D5AF1, #22D1EE);
 }
