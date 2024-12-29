@@ -19,6 +19,19 @@ export const rules: Required<ModuleOptions>['rules'] = [
     },
   },
   {
+    test: /\.module\.scss$/,
+    use: [
+      'style-loader',
+      {
+        loader: 'css-loader',
+        options: {
+          modules: true,
+        },
+      },
+      'sass-loader',
+    ],
+  },
+  {
     test: /\.tsx?$/,
     exclude: /(node_modules|\.webpack)/,
     use: {
