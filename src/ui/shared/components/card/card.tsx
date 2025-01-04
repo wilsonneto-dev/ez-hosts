@@ -1,4 +1,4 @@
-import styles from './styles.module.scss'
+import styles from './card.module.scss'
 import {ReactNode} from "react";
 
 const Card = ({children}: {children: ReactNode}) => {
